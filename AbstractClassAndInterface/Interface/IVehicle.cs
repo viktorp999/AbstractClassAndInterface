@@ -1,7 +1,7 @@
 ﻿
 namespace AbstractClassAndInterface.Interface
 {
-    interface IVehicle
+    public interface IVehicle
     {
         double Distance { get; set; }
         double Time { get; set; }

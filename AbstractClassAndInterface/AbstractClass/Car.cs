@@ -11,12 +11,14 @@ namespace AbstractClassAndInterface.AbstractClass
             {
                 return mDistance;
             }
+
             set
             {
                 if (value <= 0)
                 {
                     mDistance = 1;
                 }
+
                 else
                 {
                     mDistance = value;
@@ -30,12 +32,14 @@ namespace AbstractClassAndInterface.AbstractClass
             {
                 return mTime;
             }
+
             set
             {
                 if (value <= 0)
                 {
                     mTime = 1;
                 }
+
                 else
                 {
                     mTime = value;
